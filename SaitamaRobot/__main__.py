@@ -80,10 +80,9 @@ You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey {}! My name is *{}*.
-I'm a Saiyan and help admins manage their groups! Have a look at the following for an idea of some of \
+Hey there! My name is *{}*.
+I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
 the things I can help you with.
-
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
@@ -91,8 +90,6 @@ the things I can help you with.
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
-
-
 {}
 And the following:
 """.format(
@@ -100,9 +97,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/fd368a7a59860514e595e.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
 
-DONATE_STRING = """Not Available."""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+ You can support the project via [Paypal](ko-fi.com/sawada) or by contacting @Sawada \
+ Supporting isnt always financial! \
+ Those who cannot provide monetary support are welcome to help us develop the bot at @OnePunchDev."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -231,20 +231,20 @@ def start(update: Update, context: CallbackContext):
                                 url=f"https://t.me/{SUPPORT_CHAT}",
                             ),
                             InlineKeyboardButton(
-                                text="Saiyan Association",
-                                url="https://t.me/saiyan_association",
+                                text="🔔 Updates Channel",
+                                url="https://t.me/OnePunchUpdates",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Memes",
-                                url="https://t.me/anime_memestan",
+                                text="🧾 Getting started guide",
+                                url="https://t.me/OnePunchUpdates/29",
                             )
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🗄 Source code",
-                                url="https://github.com/Nova-sprime/SaitamaRobot",
+                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
                             )
                         ],
                     ]
