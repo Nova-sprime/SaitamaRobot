@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="☑️ Add Vegeta to your group",
+                                text="Add Vegeta to your group ☑️",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -227,24 +227,24 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support Group",
-                                url=f"https://t.me/@saiyan_association",
+                                text="Support Group",
+                                url=f"https://t.me/saiyan_association",
                             ),
                             InlineKeyboardButton(
                                 text="🔔 Updates Channel",
-                                url="https://t.me/@saiyan_association",
+                                url="https://t.me/saiyan_association",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
                                 text="🧾 Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                url="https://t.me/c/1360023096/4",
                             )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🗄 Source code",
-                                url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                                text="💾 Log channel",
+                                url="https://t.me/joinchat/5kdtpVK_GyFiNmE1",
                             )
                         ],
                     ]
